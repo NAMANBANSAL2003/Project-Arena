@@ -542,17 +542,20 @@ html, body, #root {
   .team-option {
     font-size: clamp(1.2rem, 4vw, 1.6rem);
     text-shadow: 0 6px 12px rgba(0,0,0,0.55);
+    z-index: 10;
   }
 
   .team-option.fs {
-    top: 14%;
-    left: 28%;
+    top: auto;
+    bottom: 8%;
+    left: 25%;
     transform: translateX(-50%) translateY(0);
   }
 
   .team-option.dsa {
-    top: 14%;
-    left: 72%;
+    top: auto;
+    bottom: 8%;
+    left: 75%;
     transform: translateX(-50%) translateY(0);
   }
 
@@ -597,8 +600,29 @@ html, body, #root {
     width: min(72px, 22vw);
   }
 
-  .page-heading { font-size: clamp(1.4rem, 8vw, 1.8rem); top: 10px; }
-  .team-option { font-size: 1.05rem; }
+  .page-heading { 
+    font-size: clamp(1.4rem, 8vw, 1.8rem); 
+    top: 10px; 
+  }
+  
+  .team-option { 
+    font-size: 1.05rem;
+    z-index: 10;
+  }
+
+  .team-option.fs {
+    top: auto;
+    bottom: 6%;
+    left: 25%;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .team-option.dsa {
+    top: auto;
+    bottom: 6%;
+    left: 75%;
+    transform: translateX(-50%) translateY(0);
+  }
 
   .fs-car { width: min(32vw, 140px); max-height: 100px; animation-duration: 2s; }
   .fs-car-row { bottom: 14%; left: 4%; right: 4%; gap: 10px; }
