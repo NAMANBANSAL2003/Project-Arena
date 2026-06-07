@@ -630,14 +630,3 @@ html, body, #root {
 
   .fs-start-line { left: 6%; right: 6%; height: 3px; }
 }
-
-@media (max-width: 420px) {
-  .page-heading { font-size: clamp(1.4rem, 8vw, 1.8rem); top: 10px; }
-  .team-option { font-size: 1.05rem; }
-
-  .fs-car { width: min(32vw, 140px); max-height: 100px; animation-duration: 2s; }
-  .fs-car-row { bottom: 14%; left: 4%; right: 4%; gap: 10px; }
-  .fs-car-row-top { bottom: 24%; }
-
-  .fs-start-line { left: 6%; right: 6%; height: 3px; }
-}
