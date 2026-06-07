@@ -1,0 +1,21 @@
+{
+  "name": "car-racing-arena",
+  "version": "1.0.0",
+  "description": "Car Racing Project Arena - Frontend Dashboard",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.3.9"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
